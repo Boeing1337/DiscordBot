@@ -15,7 +15,6 @@ public class VaranApplication {
     }
 
     public static void main(String[] args) {
-
         SpringApplication.run(VaranApplication.class, args);
         botInit.botInit();
     }
