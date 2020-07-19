@@ -27,7 +27,7 @@ public class LadderCasinoCommand implements CasinoCommand {
         EmbedBuilder Header = new EmbedBuilder();
         Header.setColor(Color.pink);
         Header.setAuthor("Varan's ladder");
-        Header.setTitle("LADDER TOP 10 PIDOROV");
+        Header.setTitle("LADDER TOP 10");
         Header.setFooter("По всем вопросам в личку");
         StringBuilder s = new StringBuilder();
         list.forEach(p -> s.append(p.getUserName()).append("ᅠᅠᅠ").append(p.getScore()).append("\n"));
