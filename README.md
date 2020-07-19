@@ -1,7 +1,11 @@
 # DiscordBot
 
 Discord test bot with some widely spreaded features.
-Modules - Casino: slot machine, Coin flip + roll dice, text cleaner
+
+Modules: - 
+1) Casino: slot machine
+2) Coin flip + roll dice
+3) Text cleaner
 
 ## commands
 
