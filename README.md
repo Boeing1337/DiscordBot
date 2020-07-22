@@ -22,4 +22,4 @@ Modules: -
 !) `clean x - where x is a number from 1 to 99
 
 ###### Dice roller:
-!) roll x - where x is a number from 2 to 9999
+!) `roll x - where x is a number from 2 to 9999
