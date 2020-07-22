@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class CoinFlipper implements ModuleGeneral {
-    private final static String[] coinSides = {"Воробей", "орешек"};
+    private final static String[] coinSides = {"Воробей", "Орешек"};
     private final CoinMsgRetrieve coinMsgRetrieve;
 
     private TextChannel textChannel;

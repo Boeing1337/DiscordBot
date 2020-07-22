@@ -38,6 +38,7 @@ public class JavaCasinoCfg {
             return dataSource;
         } catch (Exception e) {
             System.out.println("DBCP DataSource bean cannot be created!");
+            e.printStackTrace();
             return null;
         }
     }

@@ -1,15 +1,14 @@
-package dungeon.main.Listeners.dll;
+package dungeon.main.mainListener;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class ListenerStringParser {
+public class StringCommandParser {
     private final int MAX_COMMAND_LENGHT = 10;
     private final String PREF = "`";
 
     public String parse(String rawString) {
         if (rawString.length() <= MAX_COMMAND_LENGHT && rawString.startsWith(PREF))
-
             return cut(rawString);
         return "";
     }

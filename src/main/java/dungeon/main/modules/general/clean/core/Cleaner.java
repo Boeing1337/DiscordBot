@@ -42,7 +42,7 @@ public class Cleaner implements ModuleGeneral {
 
 
     private boolean isUserHavePrivileges() {
-        return member.isOwner() || member.getId().equals("256722804093747200");
+        return member.isOwner();
     }
 
     private boolean isCountInRange() {
@@ -50,7 +50,7 @@ public class Cleaner implements ModuleGeneral {
     }
 
     private void sendErrorMessage() {
-        textChannel.sendMessage("You need print [`clean x];\nx = value from 1 to 99").complete();
+        textChannel.sendMessage("You must print [`clean x];\nx = value from 1 to 99").complete();
     }
 
     private void deleteByCount() {

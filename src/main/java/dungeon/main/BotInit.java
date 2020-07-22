@@ -1,6 +1,6 @@
 package dungeon.main;
 
-import dungeon.main.Listeners.core.MessageListener;
+import dungeon.main.mainListener.MessageListener;
 import lombok.SneakyThrows;
 import net.dv8tion.jda.api.JDABuilder;
 import org.springframework.beans.factory.annotation.Autowired;

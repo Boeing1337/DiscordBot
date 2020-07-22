@@ -9,7 +9,8 @@ public class HelloCasinoCommand implements CasinoCommand {
 
     @Override
     public void run(MessageReceivedEvent event) {
-        event.getTextChannel().sendMessage("You are welcome " + event.getAuthor().getAsMention()).complete();
-
+        final String greetings = "You are welcome ";
+        final String target = event.getAuthor().getAsMention();
+        event.getTextChannel().sendMessage(greetings + target).complete();
     }
 }
