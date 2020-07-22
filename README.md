@@ -1,6 +1,7 @@
 # DiscordBot
 
 Discord test bot with some widely spreaded features.
+Attention! There are no cfg files in the project. You need to create them if you wanna run the application. 
 
 Modules: - 
 1) Casino: slot machine
